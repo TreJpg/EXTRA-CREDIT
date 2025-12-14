@@ -1,3 +1,49 @@
+/* mobile */
+@media (max-width: 700px) {
+	body {
+padding: 0 0.5rem;
+align-items: stretch;
+}
+main, section, .about-me, .portfolio-preview, .portfolio-piece, .about-intro, .about-list, p, h1, .site-footer {
+max-width: 100% !important;
+ width: 100% !important;
+box-sizing: border-box;
+}
+nav {
+flex-direction: column;
+gap: 1.2rem;
+ margin: 1.2rem 0;
+align-items: center;
+	}
+.hero-photo, .portfolio-piece img, img {
+max-width: 98vw;
+width: 100%;
+height: auto;
+}
+h1, .about-hero {
+font-size: 1.4rem;
+margin-top: 1.2rem;
+margin-bottom: 1rem;
+}
+.about-intro {
+font-size: 1.05rem;
+padding: 0.7rem;
+}
+.about-list {
+font-size: 1.1rem;
+padding: 0 0.5rem;
+text-align: left;
+}
+.site-footer {
+font-size: 0.95rem;
+padding: 1.2rem 0 1rem 0;
+}
+p {
+font-size: 1rem;
+ margin: 1rem auto;
+	}
+}
+/*global*/
 
 body {
 	min-height: 100vh;
