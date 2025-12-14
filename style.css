@@ -1,3 +1,117 @@
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* footer styles */
+
+.site-footer {
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0 1.5rem 0;
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: 'Quicksand', Arial, sans-serif;
+background-color: black;
+  border-top: 4px solid #75997a;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  align-self: stretch;
+}
+/*portfolio styles*/
+
+.about-hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.portfolio-preview h2 {
+	font-family: "BBH Bogle", sans-serif;
+	font-size: 2.23rem;
+	color: #000000; 
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin-bottom: 1.5rem;
+	font-weight: 700;
+}
+
+.portfolio-preview {
+	text-align: center;
+	margin: 3rem 0 2rem 0;
+}
+
+.portfolio-piece {
+	width: 100%;
+	max-width: 1000px;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.portfolio-piece img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	border-radius: 0.5rem;
+	display: block;
+	margin: 0 auto 1rem auto;
+	max-width: 800px;
+}
+.portfolio-title {
+	margin-top: 0.2rem;
+	font-weight: 700;
+	font-size: 1.08rem;
+	font-family: "BBH Bogle", sans-serif;
+	color: #75997a;
+	text-transform: uppercase;
+}
+.portfolio-desc {
+	font-size: 0.97rem;
+	color: #444;
+	margin-top: 0.3rem;
+	line-height: 1.5;
+	font-family: quicksand, sans-serif;
+}
+/*about me styles*/
+
+.about-me {
+	max-width: 600px;
+	margin: 3rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-height: 60vh;
+}
+.about-hero {
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+.about-intro {
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
+    border-bottom: #75997a 2px solid;
+    padding: 1rem;
+    max-width: 460px;
+    font-family: quicksand, sans-serif;
+}
+.about-list {
+	text-align: left;
+	max-width: 500px;
+	margin: 1 auto;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-family:quicksand, sans-serif;
+}
+/*nav styles*/
+
 nav {
 	display: flex;
 	justify-content: center;
@@ -15,6 +129,9 @@ nav a {
 nav a:hover {
 	color: #75997a;
 }
+
+/*index html styles*/
+
 h1 {
 	font-size: 2.2rem;
 	font-weight: 400;
@@ -26,7 +143,6 @@ h1 {
 	line-height: 1.1;
 	font-family: 'BBH Bogle', sans-serif;
 }
-
 .hero-photo {
 	width: 80vw;
 	max-width: 500px;
@@ -37,6 +153,20 @@ object-fit: contain;
 	justify-content: center;
 }
 
+p {
+	font-size: 1.15rem;
+	line-height: 1.7;
+	color: #222;
+	max-width: 500px;
+	margin: 1.2rem auto;
+	font-family: 'Quicksand', Arial, sans-serif;
+	letter-spacing: 0.1px;
+	text-align: center;
+    justify-content: center;
+}
+
+
+/*fonts*/
 
 .bbh-bogle-regular {
   font-family: "BBH Bogle", sans-serif;
