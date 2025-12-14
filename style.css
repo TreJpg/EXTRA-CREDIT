@@ -1,1 +1,53 @@
+nav {
+	display: flex;
+	justify-content: center;
+	gap: 6rem;
+	margin: 2rem 0;
+    font-family: 'Quicksand', sans-serif;
+text-transform: uppercase;
+}
+nav a {
+	text-decoration: none;
+	color: #2d2d2d;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+nav a:hover {
+	color: #75997a;
+}
+h1 {
+	font-size: 2.2rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #222;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: -1rem;
+	line-height: 1.1;
+	font-family: 'BBH Bogle', sans-serif;
+}
 
+.hero-photo {
+	width: 80vw;
+	max-width: 500px;
+	height: auto;
+object-fit: contain;
+	margin: 2rem auto;
+	display: block;
+	justify-content: center;
+}
+
+
+.bbh-bogle-regular {
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
